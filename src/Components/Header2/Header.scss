@@ -1,0 +1,37 @@
+.second-header{
+    width: 80%;
+    min-height: 3.45rem;
+    background-color: transparent;
+    overflow-x: scroll;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+
+    .box{
+        margin: 10px;
+        background-color: rgb(240, 240, 240);
+        width: max-content;
+        height: 1rem;
+        padding: 0.5rem;
+        color: black;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box:hover{
+        background-color: rgb(224, 224, 224);
+    }
+
+    .active{
+        background-color: rgb(19, 19, 19);
+        color: white;
+    }
+}
